@@ -9,7 +9,7 @@ To invoke commands in obs we will need to use webhooks plugin for obs.
 To invoke commands in sims we will need to emulate a joypad (vJoy?)
 
 
-Hareware Requirements
+Hardware Requirements
 -----------------------------------
  * Rasberry Pi
  * Touch Screen
@@ -18,29 +18,27 @@ Hareware Requirements
 
 Software Requirements (High Level)
 -----------------------------------
- -> App to run on the Pi (linux?) which will:
-    -> gives you a configurable button interface
-    -> add a button which will invoke a given action
-      -> allow you to assign pictures to the buttons
-    -> allow you to have "screen" buttons which will take you to another screen
-      -> We could use something like Avalonia UI
+* App to run on the Pi (linux?) which will:
+  * gives you a configurable button interface
+  * add a button which will invoke a given action
+    * allow you to assign pictures to the buttons
+  * allow you to have "screen" buttons which will take you to another screen
+    * We could use something like Avalonia UI
 
- -> App to run on Windows which can
-    -> start up a rest service to accept commands
-      -> install with squirrel
-      -> run at start up and minimise to the taskbar
-      -> wpf? or .net core?
-    -> send commands to obs
-    -> imitate joypad input
+* App to run on Windows which can
+  * start up a rest service to accept commands
+    * install with squirrel
+    * run at start up and minimise to the taskbar
+    * wpf? or .net core?
+  * send commands to obs
+  * imitate joypad input
 
 
 Research
 ----------------------------------
-  -> AvaloniaUI (linux UI in c#)
-    -> https://avaloniaui.net/docs/quickstart/
-
-  -> Simulate Send KeyPress
-    -> https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys?redirectedfrom=MSDN&view=netcore-3.1
-
-  -> Simulate Joypad
-    -> 
+* AvaloniaUI (linux UI in c#)
+  * https://avaloniaui.net/docs/quickstart/
+* Simulate Send KeyPress
+  * https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.sendkeys?redirectedfrom=MSDN&view=netcore-3.1
+* Simulate Joypad
+  * vJoy?
