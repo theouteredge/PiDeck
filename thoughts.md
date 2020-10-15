@@ -11,9 +11,9 @@ To invoke commands in sims we will need to emulate a joypad (vJoy?)
 
 Hareware Requirements
 -----------------------------------
- -> Rasberry Pi
- -> Touch Screen
- -> Case to hold them together
+ * Rasberry Pi
+ * Touch Screen
+ * Case to hold them together
 
 
 Software Requirements (High Level)
